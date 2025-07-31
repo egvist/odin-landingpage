@@ -1,3 +1,5 @@
+
+
 html, body {
     height: 100%;
     margin: 0;
@@ -9,13 +11,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.container {
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
 
-}
 
 
 .header {
@@ -48,7 +44,48 @@ body {
     font-weight: 700;
 }
 
+.main {
+    padding: 4rem 2rem;
+    flex-wrap: wrap; /* allow stacking on small screens */
+    gap: 3rem;
+    height: auto;
+}
 
+.intro {
+    width: 100%;
+    max-width: 450px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.square {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.call-square {
+    width: 100%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.main {
+    min-height: 350px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .main {
     display: flex;
     padding: 65px;
